@@ -1,0 +1,67 @@
+Jsons grandes:
+
+================== POST produto ==================
+{
+	"nome": string,
+	"preco": number-float,
+	"categoria": {
+		"id": number
+	},
+	"fornecedores": [
+		{
+			"id": number
+		}
+	],
+	"estoque": {
+		"quantidade": number
+	}
+}	
+=================================================
+
+================= POST vendas ===================
+{  
+	"cliente": { 
+		"id": number
+	},
+  	"itens": [
+		{
+			"produto": { 
+				"id": number
+				},
+			"quantidade": number
+		}
+  	]
+}
+=================================================
+
+{
+	"nome": "Gabriel",
+	"email": "gc7@email",
+	"endereco": "Av. Jorge",
+	"telefone": "19989208669"
+}
+
+
+{  
+ 	"nome": "Luis",
+	"email": "luis7@email",
+	"telefone": "12222222222",
+	"endereco": "Av. Jorge"
+}
+
+
+{
+	"nome": "maça",
+	"preco": 12,
+	"categoria": {
+		"id": 1
+	},
+	"fornecedores": [
+		{
+			"id": 1
+		}
+	],
+	"estoque": {
+		"quantidade": 18
+	}
+}	
